@@ -169,6 +169,8 @@ a {
   border-radius: 1.5rem; 
 }
 
+
+
 .hoverZoom {
   transition: transform 0.3s ease-in-out;
 }
@@ -461,6 +463,11 @@ footer {
 
 
 /* RESPONSIVE */
+@media screen and (max-width: 980px) {
+  .banner {
+    height: 650px;
+  }
+}
 @media screen and (max-width: 535px) {
   p {
     font-size: 12px;
@@ -468,6 +475,10 @@ footer {
   .nav-img {
     max-width: 150px;
     width: 100%;
+  }
+
+  .banner {
+    height: 550px;
   }
 
   .footItems p {
